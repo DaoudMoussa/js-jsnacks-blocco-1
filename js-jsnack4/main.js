@@ -9,7 +9,7 @@ for (var i = 0; i < 6; i++) {
     var numeroInserito = parseInt(prompt("Inserisci un numero"));
 
     while(isNaN(numeroInserito)) {
-        numeroInserito = parseFloat(prompt("Il dato inserito non é valido. Inserire nuovamente il numero " + (i + 1)));
+        numeroInserito = parseInt(prompt("Il dato inserito non é valido. Inserire nuovamente il numero " + (i + 1)));
     }
 
     console.log("Il " + (i + 1) + "° numero inserito é: " + numeroInserito);
