@@ -1,4 +1,4 @@
-// JSnack 3
+// JSnack 5
 // Stampa il cubo dei primi N numeri, dove N è un numero indicato dall’utente.
 
 var limiteMax = parseInt(prompt("Inserire il numero limite di cui stampare il cubo"));
